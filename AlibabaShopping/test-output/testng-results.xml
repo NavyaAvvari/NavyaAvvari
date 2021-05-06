@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[checkin Box is selected]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38071" started-at="2021-05-06T09:31:02 IST" finished-at="2021-05-06T09:31:40 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38071" started-at="2021-05-06T09:31:02 IST" finished-at="2021-05-06T09:31:40 IST">
+      <class name="com.qa.alibabatestdata.TC_Alibaba">
+        <test-method status="PASS" signature="Setup(java.lang.String, java.lang.String)[pri:0, instance:com.qa.alibabatestdata.TC_Alibaba@34cd072c]" name="Setup" is-config="true" duration-ms="10137" started-at="2021-05-06T09:31:02 IST" finished-at="2021-05-06T09:31:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.alibaba.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Alibaba(java.lang.String, java.lang.String)[pri:1, instance:com.qa.alibabatestdata.TC_Alibaba@34cd072c]" name="Alibaba" duration-ms="25428" started-at="2021-05-06T09:31:13 IST" data-provider="getData" finished-at="2021-05-06T09:31:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[navyaavvari123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vinny@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[checkin Box is selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Alibaba -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.alibabatestdata.TC_Alibaba@34cd072c]" name="TearDown" is-config="true" duration-ms="776" started-at="2021-05-06T09:31:39 IST" finished-at="2021-05-06T09:31:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.alibabatestdata.TC_Alibaba -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

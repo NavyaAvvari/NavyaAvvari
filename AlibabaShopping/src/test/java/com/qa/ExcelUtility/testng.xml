@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.qa.ExcelUtility.Reporting"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+   <parameter name="Browser" value="chrome"></parameter>
+  <parameter name="Url" value="https://www.alibaba.com/"></parameter>
+ 
+  
+    <classes>
+      <class name="com.qa.alibabatestdata.TC_Alibaba"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
